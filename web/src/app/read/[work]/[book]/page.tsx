@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { loadWork, WORK_SLUGS, WorkSlug } from "@/lib/texts";
+import WordSpan from "@/components/WordSpan";
 
 export function generateStaticParams() {
   return WORK_SLUGS.flatMap((work) => {
@@ -56,13 +57,33 @@ export default async function ReaderPage({
             id={`card-${card.card}`}
             className="grid grid-cols-1 gap-4 border-b border-neutral-100 pb-8 last:border-0 md:grid-cols-2 md:gap-8 dark:border-neutral-900"
           >
-            <div className="font-serif text-[1.15rem] leading-8 text-neutral-900 dark:text-neutral-100">
+            <div
+              className="text-[1.15rem] leading-8 text-neutral-900 dark:text-neutral-100"
+              style={{ fontFamily: "var(--font-noto-serif)" }}
+            >
               {card.greek_lines.map((line) => (
                 <div key={line.n} className="flex gap-3">
                   <span className="w-8 shrink-0 select-none text-right text-xs text-neutral-400 pt-1.5">
                     {line.n}
                   </span>
-                  <span>{line.text}</span>
+                  <span>
+                    {line.segments
+                      ? line.segments.map((seg, i) =>
+                          seg.type === "word" ? (
+                            <WordSpan
+                              key={i}
+                              text={seg.text}
+                              lemma={seg.lemma}
+                              pos={seg.pos}
+                              currentWork={work.title}
+                              currentLine={line.n}
+                            />
+                          ) : (
+                            <span key={i}>{seg.text}</span>
+                          )
+                        )
+                      : line.text}
+                  </span>
                 </div>
               ))}
             </div>

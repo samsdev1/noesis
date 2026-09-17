@@ -1,12 +1,15 @@
 import fs from "fs";
 import path from "path";
 
-export type Line = { n: string; text: string };
+export type Segment =
+  | { type: "word"; text: string; lemma: string; pos: string }
+  | { type: "sep"; text: string };
+export type Line = { n: string; text: string; segments?: Segment[] };
 export type Card = { card: string; greek_lines: Line[]; english: string };
 export type Book = { book: string; cards: Card[] };
 export type Work = { title: string; author: string; urn: string; books: Book[] };
 
-const CONTENT_DIR = path.join(process.cwd(), "src", "content");
+const CONTENT_DIR = path.join(process.cwd(), "..", "data", "processed");
 
 export const WORK_SLUGS = ["iliad", "odyssey", "theogony", "works-and-days"] as const;
 export type WorkSlug = (typeof WORK_SLUGS)[number];
