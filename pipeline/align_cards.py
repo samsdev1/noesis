@@ -37,6 +37,13 @@ STOPWORDS = {
 
 MIN_CANDIDATE_LEN = 4
 
+# How far forward (in English tokens) a Greek word is allowed to search for
+# a match. Without a cap, a word with no nearby correspondence would grab
+# whatever matched furthest down the paragraph -- visually many lines away
+# from the Greek word that's supposedly aligned to it. Better to leave a
+# word unaligned than to point somewhere wrong.
+SEARCH_WINDOW = 25
+
 ENG_TOKEN_RE = re.compile(r"[A-Za-z']+|[^A-Za-z']+")
 
 
@@ -86,11 +93,16 @@ def align_card(card, lsj):
             continue
 
         match_idx = None
-        # Pass 1: search from search_cursor forward for an exact (unclaimed) match.
+        # Search forward from search_cursor only, capped at SEARCH_WINDOW --
+        # no wraparound to the start of the paragraph (that would point the
+        # highlight at a Greek word earlier than the one actually hovered)
+        # and no unbounded forward scan (that would point it many lines
+        # later than the word actually hovered).
+        window_end = min(len(eng_tokens), search_cursor + SEARCH_WINDOW)
         for cand in candidates:
             cand_words = cand.split()
             n = len(cand_words)
-            for start in list(range(search_cursor, len(eng_tokens))) + list(range(0, search_cursor)):
+            for start in range(search_cursor, window_end):
                 if claimed[start] or not eng_tokens[start][1]:
                     continue
                 window_words = []
