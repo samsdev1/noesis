@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { loadWork, WORK_SLUGS, WorkSlug } from "@/lib/texts";
 import { ReaderProvider } from "@/components/ReaderContext";
@@ -53,10 +54,12 @@ export default async function ReaderPage({
       </h1>
 
       <ReaderProvider>
-        <FlashHandler />
+        <Suspense fallback={null}>
+          <FlashHandler />
+        </Suspense>
         <div className="mt-8 space-y-10">
           {book.cards.map((card) => (
-            <CardRow key={card.card} card={card} workTitle={work.title} />
+            <CardRow key={`${book.book}-${card.card}`} card={card} workTitle={work.title} />
           ))}
         </div>
       </ReaderProvider>

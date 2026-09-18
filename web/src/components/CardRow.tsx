@@ -1,12 +1,15 @@
 "use client";
 
 import WordSpan from "./WordSpan";
-import { useReader } from "./ReaderContext";
 import type { Card } from "@/lib/texts";
 
-export default function CardRow({ card, workTitle }: { card: Card; workTitle: string }) {
-  const { hovered, setHovered } = useReader();
+function highlight(hlKey: string, on: boolean) {
+  document
+    .querySelectorAll(`[data-hl-key="${CSS.escape(hlKey)}"]`)
+    .forEach((el) => el.classList.toggle("word-highlight", on));
+}
 
+export default function CardRow({ card, workTitle }: { card: Card; workTitle: string }) {
   return (
     <div
       id={`card-${card.card}`}
@@ -48,16 +51,14 @@ export default function CardRow({ card, workTitle }: { card: Card; workTitle: st
         {card.english_segments ? (
           card.english_segments.map((seg, i) => {
             const alignable = seg.type === "word" && !!seg.alignedLemma;
-            const isMatch =
-              alignable && hovered?.card === card.card && hovered?.lemma === seg.alignedLemma;
+            const hlKey = alignable ? `${card.card}:${seg.alignedLemma}` : "";
             return (
               <span
                 key={i}
-                className={`rounded transition-colors ${
-                  alignable ? "cursor-pointer hover:bg-neutral-800" : ""
-                } ${isMatch ? "bg-amber-200 text-neutral-900 dark:bg-amber-800 dark:text-neutral-100" : ""}`}
-                onMouseEnter={alignable ? () => setHovered({ card: card.card, lemma: seg.alignedLemma! }) : undefined}
-                onMouseLeave={alignable ? () => setHovered(null) : undefined}
+                data-hl-key={alignable ? hlKey : undefined}
+                className={`rounded transition-colors ${alignable ? "cursor-pointer hover:bg-neutral-800" : ""}`}
+                onMouseEnter={alignable ? () => highlight(hlKey, true) : undefined}
+                onMouseLeave={alignable ? () => highlight(hlKey, false) : undefined}
               >
                 {seg.text}
               </span>

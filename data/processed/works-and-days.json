@@ -230,7 +230,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "auxiliary"
                 },
                 {
@@ -392,7 +392,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -478,7 +478,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adjective"
                 },
                 {
@@ -656,7 +656,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -1620,7 +1620,7 @@
                 {
                   "type": "word",
                   "text": "ἀλλʼ",
-                  "lemma": "ἀλλʼ",
+                  "lemma": "ἀλλά",
                   "pos": "verb"
                 },
                 {
@@ -1738,7 +1738,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -1768,7 +1768,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -1970,7 +1970,7 @@
                 {
                   "type": "word",
                   "text": "ἀλλʼ",
-                  "lemma": "ἀλλʼ",
+                  "lemma": "ἀλλά",
                   "pos": "verb"
                 },
                 {
@@ -1980,7 +1980,7 @@
                 {
                   "type": "word",
                   "text": "ὑπʼ",
-                  "lemma": "ὑπʼ",
+                  "lemma": "ὑπό",
                   "pos": "adverb"
                 },
                 {
@@ -2068,7 +2068,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -2668,7 +2668,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -2962,7 +2962,7 @@
                 {
                   "type": "word",
                   "text": "σʼ",
-                  "lemma": "σʼ",
+                  "lemma": "σύ",
                   "pos": "noun"
                 },
                 {
@@ -2992,7 +2992,7 @@
                 {
                   "type": "word",
                   "text": "ἀπʼ",
-                  "lemma": "ἀπʼ",
+                  "lemma": "ἀπό",
                   "pos": "coordinating_conjunction"
                 },
                 {
@@ -3110,7 +3110,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adverb"
                 },
                 {
@@ -3150,7 +3150,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "coordinating_conjunction"
                 },
                 {
@@ -3396,7 +3396,7 @@
                 {
                   "type": "word",
                   "text": "ἐπʼ",
-                  "lemma": "ἐπʼ",
+                  "lemma": "ἐπί",
                   "pos": "numeral"
                 },
                 {
@@ -3426,7 +3426,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -3488,7 +3488,7 @@
                 {
                   "type": "word",
                   "text": "ἀλλʼ",
-                  "lemma": "ἀλλʼ",
+                  "lemma": "ἀλλά",
                   "pos": "verb"
                 },
                 {
@@ -3560,7 +3560,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "pronoun"
                 },
                 {
@@ -3888,7 +3888,7 @@
                 {
                   "type": "word",
                   "text": "οὐδʼ",
-                  "lemma": "οὐδʼ",
+                  "lemma": "οὐδέ",
                   "pos": "verb"
                 },
                 {
@@ -4926,8 +4926,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "even"
+              "type": "word",
+              "text": "even",
+              "alignedLemma": "τε"
             },
             {
               "type": "sep",
@@ -5950,8 +5951,9 @@
               "text": ", "
             },
             {
-              "type": "sep",
-              "text": "even"
+              "type": "word",
+              "text": "even",
+              "alignedLemma": "τε"
             },
             {
               "type": "sep",
@@ -6033,7 +6035,7 @@
             {
               "type": "word",
               "text": "have",
-              "alignedLemma": "τιμάω"
+              "alignedLemma": "ἔχω"
             },
             {
               "type": "sep",
@@ -6180,7 +6182,7 @@
             {
               "type": "word",
               "text": "have",
-              "alignedLemma": "ἁρπάζω"
+              "alignedLemma": "τιμάω"
             },
             {
               "type": "sep",
@@ -6406,8 +6408,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "already"
+              "type": "word",
+              "text": "already",
+              "alignedLemma": "ἤδη"
             },
             {
               "type": "sep",
@@ -7190,7 +7193,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -7378,7 +7381,7 @@
                 {
                   "type": "word",
                   "text": "ἄρʼ",
-                  "lemma": "ἄρʼ",
+                  "lemma": "ἄρα",
                   "pos": "noun"
                 },
                 {
@@ -7852,7 +7855,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adverb"
                 },
                 {
@@ -7938,7 +7941,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -8118,8 +8121,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "keep"
+              "type": "word",
+              "text": "keep",
+              "alignedLemma": "ἔχω"
             },
             {
               "type": "sep",
@@ -8619,8 +8623,9 @@
               "text": ", "
             },
             {
-              "type": "sep",
-              "text": "because"
+              "type": "word",
+              "text": "because",
+              "alignedLemma": "τε"
             },
             {
               "type": "sep",
@@ -9202,7 +9207,7 @@
             {
               "type": "word",
               "text": "have",
-              "alignedLemma": "δίδωμι"
+              "alignedLemma": "ἔχω"
             },
             {
               "type": "sep",
@@ -9618,7 +9623,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -9704,7 +9709,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -9796,7 +9801,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "determiner"
                 },
                 {
@@ -10334,7 +10339,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "pronoun"
                 },
                 {
@@ -10400,7 +10405,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -10930,7 +10935,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -11002,7 +11007,7 @@
                 {
                   "type": "word",
                   "text": "θʼ",
-                  "lemma": "θʼ",
+                  "lemma": "τε",
                   "pos": "noun"
                 },
                 {
@@ -11124,7 +11129,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -12297,8 +12302,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "famous"
+              "type": "word",
+              "text": "famous",
+              "alignedLemma": "ὁ"
             },
             {
               "type": "sep",
@@ -12692,8 +12698,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "spring"
+              "type": "word",
+              "text": "spring",
+              "alignedLemma": "ὥρα"
             },
             {
               "type": "sep",
@@ -13131,8 +13138,9 @@
               "text": ", "
             },
             {
-              "type": "sep",
-              "text": "because"
+              "type": "word",
+              "text": "because",
+              "alignedLemma": "τε"
             },
             {
               "type": "sep",
@@ -13465,7 +13473,7 @@
                 {
                   "type": "word",
                   "text": "οὐδʼ",
-                  "lemma": "οὐδʼ",
+                  "lemma": "οὐδέ",
                   "pos": "adverb"
                 },
                 {
@@ -13609,7 +13617,7 @@
                 {
                   "type": "word",
                   "text": "ἀλλʼ",
-                  "lemma": "ἀλλʼ",
+                  "lemma": "ἀλλά",
                   "pos": "adjective"
                 },
                 {
@@ -13967,7 +13975,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "determiner"
                 },
                 {
@@ -13997,7 +14005,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "pronoun"
                 },
                 {
@@ -14201,7 +14209,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -14257,7 +14265,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -14539,7 +14547,7 @@
                 {
                   "type": "word",
                   "text": "κατʼ",
-                  "lemma": "κατʼ",
+                  "lemma": "κατά",
                   "pos": "noun"
                 },
                 {
@@ -14671,7 +14679,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -14691,7 +14699,7 @@
                 {
                   "type": "word",
                   "text": "ἐφʼ",
-                  "lemma": "ἐφʼ",
+                  "lemma": "ἐπί",
                   "pos": "adjective"
                 },
                 {
@@ -14721,7 +14729,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -14957,7 +14965,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -15069,7 +15077,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -15175,7 +15183,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "determiner"
                 },
                 {
@@ -15470,8 +15478,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "think"
+              "type": "word",
+              "text": "think",
+              "alignedLemma": "νοέω"
             },
             {
               "type": "sep",
@@ -16073,8 +16082,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "upon"
+              "type": "word",
+              "text": "upon",
+              "alignedLemma": "ἐπί"
             },
             {
               "type": "sep",
@@ -16310,7 +16320,7 @@
             {
               "type": "word",
               "text": "thought",
-              "alignedLemma": "νοέω"
+              "alignedLemma": "μή"
             },
             {
               "type": "sep",
@@ -16917,8 +16927,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "upon"
+              "type": "word",
+              "text": "upon",
+              "alignedLemma": "κατά"
             },
             {
               "type": "sep",
@@ -17271,7 +17282,7 @@
             {
               "type": "word",
               "text": "well",
-              "alignedLemma": "εὖ"
+              "alignedLemma": "δέ"
             },
             {
               "type": "sep",
@@ -17685,7 +17696,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -17987,7 +17998,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -18089,7 +18100,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -18191,7 +18202,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "determiner"
                 },
                 {
@@ -18937,7 +18948,7 @@
                 {
                   "type": "word",
                   "text": "ἀλλʼ",
-                  "lemma": "ἀλλʼ",
+                  "lemma": "ἀλλά",
                   "pos": "verb"
                 },
                 {
@@ -19095,7 +19106,7 @@
                 {
                   "type": "word",
                   "text": "ἀλλʼ",
-                  "lemma": "ἀλλʼ",
+                  "lemma": "ἀλλά",
                   "pos": "verb"
                 },
                 {
@@ -19115,7 +19126,7 @@
                 {
                   "type": "word",
                   "text": "ἄρʼ",
-                  "lemma": "ἄρʼ",
+                  "lemma": "ἄρα",
                   "pos": "noun"
                 },
                 {
@@ -19335,7 +19346,7 @@
                 {
                   "type": "word",
                   "text": "οὐδʼ",
-                  "lemma": "οὐδʼ",
+                  "lemma": "οὐδέ",
                   "pos": "adverb"
                 },
                 {
@@ -19377,7 +19388,7 @@
                 {
                   "type": "word",
                   "text": "οὐδʼ",
-                  "lemma": "οὐδʼ",
+                  "lemma": "οὐδέ",
                   "pos": "adjective"
                 },
                 {
@@ -20978,7 +20989,7 @@
             {
               "type": "word",
               "text": "keep",
-              "alignedLemma": "φυλάσσω"
+              "alignedLemma": "ἔχω"
             },
             {
               "type": "sep",
@@ -21587,8 +21598,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "full"
+              "type": "word",
+              "text": "full",
+              "alignedLemma": "δή"
             },
             {
               "type": "sep",
@@ -21644,8 +21656,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "full"
+              "type": "word",
+              "text": "full",
+              "alignedLemma": "καί"
             },
             {
               "type": "sep",
@@ -21832,8 +21845,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "keep"
+              "type": "word",
+              "text": "keep",
+              "alignedLemma": "ἔχω"
             },
             {
               "type": "sep",
@@ -22503,7 +22517,7 @@
                 {
                   "type": "word",
                   "text": "ἀλλʼ",
-                  "lemma": "ἀλλʼ",
+                  "lemma": "ἀλλά",
                   "pos": "verb"
                 },
                 {
@@ -22891,7 +22905,7 @@
                 {
                   "type": "word",
                   "text": "ἀλλʼ",
-                  "lemma": "ἀλλʼ",
+                  "lemma": "ἀλλά",
                   "pos": "noun"
                 },
                 {
@@ -23095,7 +23109,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -23197,7 +23211,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -23227,7 +23241,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -23509,7 +23523,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -23871,7 +23885,7 @@
                 {
                   "type": "word",
                   "text": "κατʼ",
-                  "lemma": "κατʼ",
+                  "lemma": "κατά",
                   "pos": "noun"
                 },
                 {
@@ -24023,7 +24037,7 @@
                 {
                   "type": "word",
                   "text": "ὑφʼ",
-                  "lemma": "ὑφʼ",
+                  "lemma": "ὑπό",
                   "pos": "noun"
                 },
                 {
@@ -24629,7 +24643,7 @@
                 {
                   "type": "word",
                   "text": "παρʼ",
-                  "lemma": "παρʼ",
+                  "lemma": "παρά",
                   "pos": "verb"
                 },
                 {
@@ -24793,7 +24807,7 @@
                 {
                   "type": "word",
                   "text": "ἀπʼ",
-                  "lemma": "ἀπʼ",
+                  "lemma": "ἀπό",
                   "pos": "adjective"
                 },
                 {
@@ -24955,7 +24969,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -25041,7 +25055,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -26663,8 +26677,9 @@
               "text": ", "
             },
             {
-              "type": "sep",
-              "text": "upon"
+              "type": "word",
+              "text": "upon",
+              "alignedLemma": "κατά"
             },
             {
               "type": "sep",
@@ -26902,8 +26917,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "boundless"
+              "type": "word",
+              "text": "boundless",
+              "alignedLemma": "ἀπείρων"
             },
             {
               "type": "sep",
@@ -27512,8 +27528,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "apart"
+              "type": "word",
+              "text": "apart",
+              "alignedLemma": "ἀπό"
             },
             {
               "type": "sep",
@@ -28113,8 +28130,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "have"
+              "type": "word",
+              "text": "have",
+              "alignedLemma": "ἔχω"
             },
             {
               "type": "sep",
@@ -28385,7 +28403,7 @@
                 {
                   "type": "word",
                   "text": "ἀλλʼ",
-                  "lemma": "ἀλλʼ",
+                  "lemma": "ἀλλά",
                   "pos": "noun"
                 },
                 {
@@ -28691,7 +28709,7 @@
                 {
                   "type": "word",
                   "text": "ἀλλʼ",
-                  "lemma": "ἀλλʼ",
+                  "lemma": "ἀλλά",
                   "pos": "verb"
                 },
                 {
@@ -28777,7 +28795,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -29203,7 +29221,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -29429,7 +29447,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -29659,7 +29677,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -29741,7 +29759,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -29843,7 +29861,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -29889,7 +29907,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -30285,7 +30303,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -30377,8 +30395,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "among"
+              "type": "word",
+              "text": "among",
+              "alignedLemma": "μέτειμι"
             },
             {
               "type": "sep",
@@ -30786,8 +30805,9 @@
               "text": ", "
             },
             {
-              "type": "sep",
-              "text": "even"
+              "type": "word",
+              "text": "even",
+              "alignedLemma": "καί"
             },
             {
               "type": "sep",
@@ -30967,8 +30987,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "come"
+              "type": "word",
+              "text": "come",
+              "alignedLemma": "εἶμι"
             },
             {
               "type": "sep",
@@ -30985,7 +31006,7 @@
             {
               "type": "word",
               "text": "have",
-              "alignedLemma": "γε"
+              "alignedLemma": "ἄν"
             },
             {
               "type": "sep",
@@ -31354,7 +31375,7 @@
             {
               "type": "word",
               "text": "parents",
-              "alignedLemma": "τοκεύς"
+              "alignedLemma": "γείνομαι"
             },
             {
               "type": "sep",
@@ -31614,7 +31635,7 @@
             {
               "type": "word",
               "text": "parents",
-              "alignedLemma": "γείνομαι"
+              "alignedLemma": "τοκεύς"
             },
             {
               "type": "sep",
@@ -31888,8 +31909,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "just"
+              "type": "word",
+              "text": "just",
+              "alignedLemma": "δή"
             },
             {
               "type": "sep",
@@ -32027,8 +32049,9 @@
               "text": ". "
             },
             {
-              "type": "sep",
-              "text": "Strength"
+              "type": "word",
+              "text": "Strength",
+              "alignedLemma": "ἀλκή"
             },
             {
               "type": "sep",
@@ -32832,7 +32855,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -33046,7 +33069,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -33284,7 +33307,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -33314,7 +33337,7 @@
                 {
                   "type": "word",
                   "text": "σʼ",
-                  "lemma": "σʼ",
+                  "lemma": "σύ",
                   "pos": "noun"
                 },
                 {
@@ -33410,7 +33433,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -33496,7 +33519,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -33612,7 +33635,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "particle"
                 },
                 {
@@ -33754,7 +33777,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -33784,7 +33807,7 @@
                 {
                   "type": "word",
                   "text": "μηδʼ",
-                  "lemma": "μηδʼ",
+                  "lemma": "μηδέ",
                   "pos": "verb"
                 },
                 {
@@ -33962,7 +33985,7 @@
                 {
                   "type": "word",
                   "text": "θʼ",
-                  "lemma": "θʼ",
+                  "lemma": "τε",
                   "pos": "adverb"
                 },
                 {
@@ -33972,7 +33995,7 @@
                 {
                   "type": "word",
                   "text": "ὑπʼ",
-                  "lemma": "ὑπʼ",
+                  "lemma": "ὑπό",
                   "pos": "adverb"
                 },
                 {
@@ -34024,7 +34047,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -34106,7 +34129,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -34478,7 +34501,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -34874,7 +34897,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -34930,7 +34953,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -35088,7 +35111,7 @@
                 {
                   "type": "word",
                   "text": "μετʼ",
-                  "lemma": "μετʼ",
+                  "lemma": "μετά",
                   "pos": "noun"
                 },
                 {
@@ -35130,7 +35153,7 @@
                 {
                   "type": "word",
                   "text": "οὐδʼ",
-                  "lemma": "οὐδʼ",
+                  "lemma": "οὐδέ",
                   "pos": "adverb"
                 },
                 {
@@ -35394,7 +35417,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -35516,7 +35539,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -35546,7 +35569,7 @@
                 {
                   "type": "word",
                   "text": "οὐδʼ",
-                  "lemma": "οὐδʼ",
+                  "lemma": "οὐδέ",
                   "pos": "adverb"
                 },
                 {
@@ -35867,8 +35890,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "among"
+              "type": "word",
+              "text": "among",
+              "alignedLemma": "μετά"
             },
             {
               "type": "sep",
@@ -36711,7 +36735,7 @@
             {
               "type": "word",
               "text": "right",
-              "alignedLemma": "δίκη"
+              "alignedLemma": "δίκαιος"
             },
             {
               "type": "sep",
@@ -36826,7 +36850,7 @@
             {
               "type": "word",
               "text": "Even",
-              "alignedLemma": "αὐτός"
+              "alignedLemma": "καί"
             },
             {
               "type": "sep",
@@ -36924,8 +36948,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "under"
+              "type": "word",
+              "text": "under",
+              "alignedLemma": "ὑπό"
             },
             {
               "type": "sep",
@@ -36974,7 +36999,7 @@
             {
               "type": "word",
               "text": "into",
-              "alignedLemma": "ἄγω"
+              "alignedLemma": "εἶμι"
             },
             {
               "type": "sep",
@@ -37738,7 +37763,7 @@
             {
               "type": "word",
               "text": "even",
-              "alignedLemma": "δίκαιος"
+              "alignedLemma": "καί"
             },
             {
               "type": "sep",
@@ -37771,7 +37796,7 @@
             {
               "type": "word",
               "text": "have",
-              "alignedLemma": "πάσχω"
+              "alignedLemma": "ἔχω"
             },
             {
               "type": "sep",
@@ -38973,7 +38998,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -39287,7 +39312,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -39527,7 +39552,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -40361,7 +40386,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adjective"
                 },
                 {
@@ -40447,7 +40472,7 @@
                 {
                   "type": "word",
                   "text": "ῥʼ",
-                  "lemma": "ῥʼ",
+                  "lemma": "ἄρα",
                   "pos": "adverb"
                 },
                 {
@@ -40913,7 +40938,7 @@
                 {
                   "type": "word",
                   "text": "γʼ",
-                  "lemma": "γʼ",
+                  "lemma": "γε",
                   "pos": "adverb"
                 },
                 {
@@ -41599,7 +41624,7 @@
                 {
                   "type": "word",
                   "text": "γʼ",
-                  "lemma": "γʼ",
+                  "lemma": "γε",
                   "pos": "adverb"
                 },
                 {
@@ -41838,7 +41863,7 @@
             {
               "type": "word",
               "text": "even",
-              "alignedLemma": "γε"
+              "alignedLemma": "καί"
             },
             {
               "type": "sep",
@@ -42539,8 +42564,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "well"
+              "type": "word",
+              "text": "well",
+              "alignedLemma": "δέ"
             },
             {
               "type": "sep",
@@ -42939,7 +42965,7 @@
             {
               "type": "word",
               "text": "keep",
-              "alignedLemma": "φυλάσσω"
+              "alignedLemma": "ἔχω"
             },
             {
               "type": "sep",
@@ -44422,7 +44448,7 @@
             {
               "type": "word",
               "text": "indeed",
-              "alignedLemma": "ἐγώ"
+              "alignedLemma": "γε"
             },
             {
               "type": "sep",
@@ -44760,7 +44786,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -44990,7 +45016,7 @@
                 {
                   "type": "word",
                   "text": "μετʼ",
-                  "lemma": "μετʼ",
+                  "lemma": "μετά",
                   "pos": "verb"
                 },
                 {
@@ -45026,7 +45052,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -45210,7 +45236,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adverb"
                 },
                 {
@@ -45434,7 +45460,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adjective"
                 },
                 {
@@ -45500,7 +45526,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -45566,7 +45592,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -45784,7 +45810,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -45830,7 +45856,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -46024,7 +46050,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -46324,7 +46350,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -46532,7 +46558,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -46598,7 +46624,7 @@
                 {
                   "type": "word",
                   "text": "γʼ",
-                  "lemma": "γʼ",
+                  "lemma": "γε",
                   "pos": "adverb"
                 },
                 {
@@ -46752,7 +46778,7 @@
                 {
                   "type": "word",
                   "text": "σʼ",
-                  "lemma": "σʼ",
+                  "lemma": "σύ",
                   "pos": "noun"
                 },
                 {
@@ -47156,7 +47182,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -47318,7 +47344,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -47348,7 +47374,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "auxiliary"
                 },
                 {
@@ -47450,7 +47476,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -47628,7 +47654,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -47694,7 +47720,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -47780,7 +47806,7 @@
                 {
                   "type": "word",
                   "text": "ἀπʼ",
-                  "lemma": "ἀπʼ",
+                  "lemma": "ἀπό",
                   "pos": "adverb"
                 },
                 {
@@ -47928,7 +47954,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -48014,7 +48040,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adverb"
                 },
                 {
@@ -49343,8 +49369,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "between"
+              "type": "word",
+              "text": "between",
+              "alignedLemma": "μετά"
             },
             {
               "type": "sep",
@@ -50944,7 +50971,7 @@
             {
               "type": "word",
               "text": "full",
-              "alignedLemma": "πλήθω"
+              "alignedLemma": "καί"
             },
             {
               "type": "sep",
@@ -51520,8 +51547,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "away"
+              "type": "word",
+              "text": "away",
+              "alignedLemma": "ἀπό"
             },
             {
               "type": "sep",
@@ -51879,7 +51907,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -52061,7 +52089,7 @@
                 {
                   "type": "word",
                   "text": "γʼ",
-                  "lemma": "γʼ",
+                  "lemma": "γε",
                   "pos": "adverb"
                 },
                 {
@@ -52235,7 +52263,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adjective"
                 },
                 {
@@ -52459,7 +52487,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -52479,7 +52507,7 @@
                 {
                   "type": "word",
                   "text": "θʼ",
-                  "lemma": "θʼ",
+                  "lemma": "τε",
                   "pos": "noun"
                 },
                 {
@@ -52897,7 +52925,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -53161,7 +53189,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -53253,7 +53281,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -53693,7 +53721,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -54149,7 +54177,7 @@
                 {
                   "type": "word",
                   "text": "οὐδʼ",
-                  "lemma": "οὐδʼ",
+                  "lemma": "οὐδέ",
                   "pos": "adverb"
                 },
                 {
@@ -54305,7 +54333,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -54831,7 +54859,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -55271,7 +55299,7 @@
                 {
                   "type": "word",
                   "text": "γʼ",
-                  "lemma": "γʼ",
+                  "lemma": "γε",
                   "pos": "particle"
                 },
                 {
@@ -55327,7 +55355,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -55337,7 +55365,7 @@
                 {
                   "type": "word",
                   "text": "ἐπʼ",
-                  "lemma": "ἐπʼ",
+                  "lemma": "ἐπί",
                   "pos": "numeral"
                 },
                 {
@@ -55377,7 +55405,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -55631,7 +55659,7 @@
                 {
                   "type": "word",
                   "text": "γʼ",
-                  "lemma": "γʼ",
+                  "lemma": "γε",
                   "pos": "adverb"
                 },
                 {
@@ -56007,7 +56035,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -56450,8 +56478,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "make"
+              "type": "word",
+              "text": "make",
+              "alignedLemma": "ῥέζω"
             },
             {
               "type": "sep",
@@ -57032,9 +57061,8 @@
               "text": " "
             },
             {
-              "type": "word",
-              "text": "himself",
-              "alignedLemma": "μιν"
+              "type": "sep",
+              "text": "himself"
             },
             {
               "type": "sep",
@@ -57893,8 +57921,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "alone"
+              "type": "word",
+              "text": "alone",
+              "alignedLemma": "αὐτός"
             },
             {
               "type": "sep",
@@ -57950,8 +57979,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "near"
+              "type": "word",
+              "text": "near",
+              "alignedLemma": "ἐπί"
             },
             {
               "type": "sep",
@@ -58327,7 +58357,7 @@
             {
               "type": "word",
               "text": "even",
-              "alignedLemma": "αὐτός"
+              "alignedLemma": "τε"
             },
             {
               "type": "sep",
@@ -58826,8 +58856,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "visit"
+              "type": "word",
+              "text": "visit",
+              "alignedLemma": "πρόσειμι"
             },
             {
               "type": "sep",
@@ -59155,7 +59186,7 @@
             {
               "type": "word",
               "text": "Take",
-              "alignedLemma": "αἱρέω"
+              "alignedLemma": "μείρομαι"
             },
             {
               "type": "sep",
@@ -59261,7 +59292,7 @@
             {
               "type": "word",
               "text": "even",
-              "alignedLemma": "αὐτός"
+              "alignedLemma": "τε"
             },
             {
               "type": "sep",
@@ -59465,8 +59496,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "himself"
+              "type": "word",
+              "text": "himself",
+              "alignedLemma": "μιν"
             },
             {
               "type": "sep",
@@ -59475,7 +59507,7 @@
             {
               "type": "word",
               "text": "even",
-              "alignedLemma": "αὐτός"
+              "alignedLemma": "τε"
             },
             {
               "type": "sep",
@@ -59555,9 +59587,8 @@
               "text": " "
             },
             {
-              "type": "word",
-              "text": "heart",
-              "alignedLemma": "θυμός"
+              "type": "sep",
+              "text": "heart"
             },
             {
               "type": "sep",
@@ -60150,7 +60181,7 @@
             {
               "type": "word",
               "text": "have",
-              "alignedLemma": "δίδωμι"
+              "alignedLemma": "ἔχω"
             },
             {
               "type": "sep",
@@ -60189,8 +60220,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "heart"
+              "type": "word",
+              "text": "heart",
+              "alignedLemma": "θυμός"
             },
             {
               "type": "sep",
@@ -60248,7 +60280,7 @@
             {
               "type": "word",
               "text": "have",
-              "alignedLemma": "δίδωμι"
+              "alignedLemma": "ἄν"
             },
             {
               "type": "sep",
@@ -60313,7 +60345,7 @@
             {
               "type": "word",
               "text": "Take",
-              "alignedLemma": "αἱρέω"
+              "alignedLemma": "μείρομαι"
             },
             {
               "type": "sep",
@@ -60482,8 +60514,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "poor"
+              "type": "word",
+              "text": "poor",
+              "alignedLemma": "χρῄζω"
             },
             {
               "type": "sep",
@@ -60568,7 +60601,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -61350,7 +61383,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -61386,7 +61419,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -61512,7 +61545,7 @@
                 {
                   "type": "word",
                   "text": "ἐπʼ",
-                  "lemma": "ἐπʼ",
+                  "lemma": "ἐπί",
                   "pos": "adjective"
                 },
                 {
@@ -61938,7 +61971,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "pronoun"
                 },
                 {
@@ -62102,7 +62135,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -62404,7 +62437,7 @@
                 {
                   "type": "word",
                   "text": "ἐπʼ",
-                  "lemma": "ἐπʼ",
+                  "lemma": "ἐπί",
                   "pos": "verb"
                 },
                 {
@@ -62486,7 +62519,7 @@
                 {
                   "type": "word",
                   "text": "οὐδʼ",
-                  "lemma": "οὐδʼ",
+                  "lemma": "οὐδέ",
                   "pos": "adverb"
                 },
                 {
@@ -62562,7 +62595,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "pronoun"
                 },
                 {
@@ -62740,7 +62773,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -62846,7 +62879,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -62932,7 +62965,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -62988,7 +63021,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -63110,7 +63143,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "determiner"
                 },
                 {
@@ -63207,8 +63240,9 @@
               "text": "; "
             },
             {
-              "type": "sep",
-              "text": "even"
+              "type": "word",
+              "text": "even",
+              "alignedLemma": "τε"
             },
             {
               "type": "sep",
@@ -63813,9 +63847,8 @@
               "text": " "
             },
             {
-              "type": "word",
-              "text": "give",
-              "alignedLemma": "πόρω"
+              "type": "sep",
+              "text": "give"
             },
             {
               "type": "sep",
@@ -63871,8 +63904,9 @@
               "text": ". "
             },
             {
-              "type": "sep",
-              "text": "More"
+              "type": "word",
+              "text": "More",
+              "alignedLemma": "πλείων"
             },
             {
               "type": "sep",
@@ -64031,7 +64065,7 @@
             {
               "type": "word",
               "text": "work",
-              "alignedLemma": "ἔργον"
+              "alignedLemma": "ἐργάζομαι"
             },
             {
               "type": "sep",
@@ -64048,15 +64082,16 @@
             {
               "type": "word",
               "text": "work",
-              "alignedLemma": "ἐργάζομαι"
+              "alignedLemma": "ἔργον"
             },
             {
               "type": "sep",
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "upon"
+              "type": "word",
+              "text": "upon",
+              "alignedLemma": "ἐπί"
             },
             {
               "type": "sep",
@@ -64502,8 +64537,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "near"
+              "type": "word",
+              "text": "near",
+              "alignedLemma": "ἐπί"
             },
             {
               "type": "sep",
@@ -64749,7 +64785,7 @@
             {
               "type": "word",
               "text": "wish",
-              "alignedLemma": "ἐθέλω"
+              "alignedLemma": "μή"
             },
             {
               "type": "sep",
@@ -65141,8 +65177,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "give"
+              "type": "word",
+              "text": "give",
+              "alignedLemma": "πόρω"
             },
             {
               "type": "sep",
@@ -65165,8 +65202,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "more"
+              "type": "word",
+              "text": "more",
+              "alignedLemma": "πλείων"
             },
             {
               "type": "sep",
@@ -65232,7 +65270,7 @@
             {
               "type": "word",
               "text": "Work",
-              "alignedLemma": "ἔργον"
+              "alignedLemma": "ἐργάζομαι"
             },
             {
               "type": "sep",
@@ -65249,7 +65287,7 @@
             {
               "type": "word",
               "text": "work",
-              "alignedLemma": "ἐργάζομαι"
+              "alignedLemma": "ἔργον"
             },
             {
               "type": "sep",
@@ -65951,7 +65989,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "determiner"
                 },
                 {
@@ -66063,7 +66101,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -66189,7 +66227,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -66255,7 +66293,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -66331,7 +66369,7 @@
                 {
                   "type": "word",
                   "text": "μηδʼ",
-                  "lemma": "μηδʼ",
+                  "lemma": "μηδέ",
                   "pos": "verb"
                 },
                 {
@@ -66361,7 +66399,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adverb"
                 },
                 {
@@ -66479,7 +66517,7 @@
                 {
                   "type": "word",
                   "text": "οὐδʼ",
-                  "lemma": "οὐδʼ",
+                  "lemma": "οὐδέ",
                   "pos": "adverb"
                 },
                 {
@@ -66565,7 +66603,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "verb"
                 },
                 {
@@ -67069,7 +67107,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -67145,7 +67183,7 @@
                 {
                   "type": "word",
                   "text": "ἄρʼ",
-                  "lemma": "ἄρʼ",
+                  "lemma": "ἄρα",
                   "pos": "noun"
                 },
                 {
@@ -67287,7 +67325,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -67479,7 +67517,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -67651,7 +67689,7 @@
                 {
                   "type": "word",
                   "text": "κατʼ",
-                  "lemma": "κατʼ",
+                  "lemma": "κατά",
                   "pos": "noun"
                 },
                 {
@@ -67691,7 +67729,7 @@
                 {
                   "type": "word",
                   "text": "κατʼ",
-                  "lemma": "κατʼ",
+                  "lemma": "κατά",
                   "pos": "noun"
                 },
                 {
@@ -68169,7 +68207,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -68275,7 +68313,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -68469,7 +68507,7 @@
                 {
                   "type": "word",
                   "text": "γʼ",
-                  "lemma": "γʼ",
+                  "lemma": "γε",
                   "pos": "adverb"
                 },
                 {
@@ -68627,7 +68665,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -68821,7 +68859,7 @@
                 {
                   "type": "word",
                   "text": "μεθʼ",
-                  "lemma": "μεθʼ",
+                  "lemma": "μετά",
                   "pos": "verb"
                 },
                 {
@@ -68841,7 +68879,7 @@
                 {
                   "type": "word",
                   "text": "ἀλλʼ",
-                  "lemma": "ἀλλʼ",
+                  "lemma": "ἀλλά",
                   "pos": "verb"
                 },
                 {
@@ -68903,7 +68941,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -69041,7 +69079,7 @@
                 {
                   "type": "word",
                   "text": "μεθʼ",
-                  "lemma": "μεθʼ",
+                  "lemma": "μετά",
                   "pos": "verb"
                 },
                 {
@@ -69296,8 +69334,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "well"
+              "type": "word",
+              "text": "well",
+              "alignedLemma": "δέ"
             },
             {
               "type": "sep",
@@ -69314,7 +69353,7 @@
             {
               "type": "word",
               "text": "make",
-              "alignedLemma": "δειπνέω"
+              "alignedLemma": "ποιέω"
             },
             {
               "type": "sep",
@@ -69395,8 +69434,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "have"
+              "type": "word",
+              "text": "have",
+              "alignedLemma": "ἄν"
             },
             {
               "type": "sep",
@@ -69452,8 +69492,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "refuse"
+              "type": "word",
+              "text": "refuse",
+              "alignedLemma": "οὐ"
             },
             {
               "type": "sep",
@@ -69484,8 +69525,9 @@
               "text": ", "
             },
             {
-              "type": "sep",
-              "text": "because"
+              "type": "word",
+              "text": "because",
+              "alignedLemma": "τε"
             },
             {
               "type": "sep",
@@ -69532,8 +69574,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "season"
+              "type": "word",
+              "text": "season",
+              "alignedLemma": "ὥρα"
             },
             {
               "type": "sep",
@@ -69638,9 +69681,8 @@
               "text": " "
             },
             {
-              "type": "word",
-              "text": "work",
-              "alignedLemma": "ἔργον"
+              "type": "sep",
+              "text": "work"
             },
             {
               "type": "sep",
@@ -69874,8 +69916,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "well"
+              "type": "word",
+              "text": "well",
+              "alignedLemma": "δέ"
             },
             {
               "type": "sep",
@@ -70927,15 +70970,16 @@
             {
               "type": "word",
               "text": "very",
-              "alignedLemma": "μάλα"
+              "alignedLemma": "δή"
             },
             {
               "type": "sep",
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "well"
+              "type": "word",
+              "text": "well",
+              "alignedLemma": "δέ"
             },
             {
               "type": "sep",
@@ -70976,7 +71020,7 @@
             {
               "type": "word",
               "text": "make",
-              "alignedLemma": "ποιέω"
+              "alignedLemma": "ὀφέλλω"
             },
             {
               "type": "sep",
@@ -71080,8 +71124,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "well"
+              "type": "word",
+              "text": "well",
+              "alignedLemma": "δέ"
             },
             {
               "type": "sep",
@@ -71301,8 +71346,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "have"
+              "type": "word",
+              "text": "have",
+              "alignedLemma": "γε"
             },
             {
               "type": "sep",
@@ -72781,8 +72827,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "work"
+              "type": "word",
+              "text": "work",
+              "alignedLemma": "ἔργον"
             },
             {
               "type": "sep",
@@ -72927,8 +72974,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "keep"
+              "type": "word",
+              "text": "keep",
+              "alignedLemma": "ἔχω"
             },
             {
               "type": "sep",
@@ -73218,7 +73266,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -73448,7 +73496,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -73666,7 +73714,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -73732,7 +73780,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -74168,7 +74216,7 @@
                 {
                   "type": "word",
                   "text": "καθʼ",
-                  "lemma": "καθʼ",
+                  "lemma": "κατά",
                   "pos": "noun"
                 },
                 {
@@ -74330,7 +74378,7 @@
                 {
                   "type": "word",
                   "text": "σʼ",
-                  "lemma": "σʼ",
+                  "lemma": "σύ",
                   "pos": "noun"
                 },
                 {
@@ -74518,7 +74566,7 @@
                 {
                   "type": "word",
                   "text": "θʼ",
-                  "lemma": "θʼ",
+                  "lemma": "τε",
                   "pos": "adverb"
                 },
                 {
@@ -75148,7 +75196,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -75286,7 +75334,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -75378,7 +75426,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -75627,8 +75675,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "ploughing"
+              "type": "word",
+              "text": "ploughing",
+              "alignedLemma": "ἄροτος"
             },
             {
               "type": "sep",
@@ -75659,8 +75708,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "season"
+              "type": "word",
+              "text": "season",
+              "alignedLemma": "ὥρα"
             },
             {
               "type": "sep",
@@ -76059,8 +76109,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "refuse"
+              "type": "word",
+              "text": "refuse",
+              "alignedLemma": "οὐ"
             },
             {
               "type": "sep",
@@ -76485,9 +76536,8 @@
               "text": " "
             },
             {
-              "type": "word",
-              "text": "ploughing",
-              "alignedLemma": "ἄροτος"
+              "type": "sep",
+              "text": "ploughing"
             },
             {
               "type": "sep",
@@ -76502,8 +76552,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "proclaimed"
+              "type": "word",
+              "text": "proclaimed",
+              "alignedLemma": "χράω"
             },
             {
               "type": "sep",
@@ -76665,8 +76716,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "season"
+              "type": "word",
+              "text": "season",
+              "alignedLemma": "ὥρα"
             },
             {
               "type": "sep",
@@ -76806,7 +76858,7 @@
             {
               "type": "word",
               "text": "Plough",
-              "alignedLemma": "πολέω"
+              "alignedLemma": "ἐχέτλη"
             },
             {
               "type": "sep",
@@ -76831,7 +76883,7 @@
             {
               "type": "word",
               "text": "spring",
-              "alignedLemma": "σπείρω"
+              "alignedLemma": "ἔαρ"
             },
             {
               "type": "sep",
@@ -77323,8 +77375,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "hold"
+              "type": "word",
+              "text": "hold",
+              "alignedLemma": "ἔχω"
             },
             {
               "type": "sep",
@@ -77391,7 +77444,7 @@
             {
               "type": "word",
               "text": "plough",
-              "alignedLemma": "ἐχέτλη"
+              "alignedLemma": "πολέω"
             },
             {
               "type": "sep",
@@ -78286,8 +78339,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "have"
+              "type": "word",
+              "text": "have",
+              "alignedLemma": "ἔχω"
             },
             {
               "type": "sep",
@@ -78721,7 +78775,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -78807,7 +78861,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -78873,7 +78927,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -79137,7 +79191,7 @@
                 {
                   "type": "word",
                   "text": "ἐπʼ",
-                  "lemma": "ἐπʼ",
+                  "lemma": "ἐπί",
                   "pos": "adjective"
                 },
                 {
@@ -79259,7 +79313,7 @@
                 {
                   "type": "word",
                   "text": "ἄρʼ",
-                  "lemma": "ἄρʼ",
+                  "lemma": "ἄρα",
                   "pos": "noun"
                 },
                 {
@@ -79401,7 +79455,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -79559,7 +79613,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -79937,7 +79991,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -80079,7 +80133,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -81175,8 +81229,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "boundless"
+              "type": "word",
+              "text": "boundless",
+              "alignedLemma": "ἀπείρων"
             },
             {
               "type": "sep",
@@ -81496,7 +81551,7 @@
             {
               "type": "word",
               "text": "well",
-              "alignedLemma": "εὖ"
+              "alignedLemma": "δέ"
             },
             {
               "type": "sep",
@@ -81569,8 +81624,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "spring"
+              "type": "word",
+              "text": "spring",
+              "alignedLemma": "ἔαρ"
             },
             {
               "type": "sep",
@@ -81716,8 +81772,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "winter"
+              "type": "word",
+              "text": "winter",
+              "alignedLemma": "ὥρα"
             },
             {
               "type": "sep",
@@ -81879,8 +81936,9 @@
               "text": "—"
             },
             {
-              "type": "sep",
-              "text": "lest"
+              "type": "word",
+              "text": "lest",
+              "alignedLemma": "μή"
             },
             {
               "type": "sep",
@@ -82232,8 +82290,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "needy"
+              "type": "word",
+              "text": "needy",
+              "alignedLemma": "χρῄζω"
             },
             {
               "type": "sep",
@@ -82272,8 +82331,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "ease"
+              "type": "word",
+              "text": "ease",
+              "alignedLemma": "εὖ"
             },
             {
               "type": "sep",
@@ -82922,7 +82982,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -83292,7 +83352,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -83886,7 +83946,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "determiner"
                 },
                 {
@@ -84018,7 +84078,7 @@
                 {
                   "type": "word",
                   "text": "ἀλλʼ",
-                  "lemma": "ἀλλʼ",
+                  "lemma": "ἀλλά",
                   "pos": "verb"
                 },
                 {
@@ -84514,7 +84574,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adjective"
                 },
                 {
@@ -84564,7 +84624,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -85491,8 +85551,9 @@
               "text": ", "
             },
             {
-              "type": "sep",
-              "text": "even"
+              "type": "word",
+              "text": "even",
+              "alignedLemma": "καί"
             },
             {
               "type": "sep",
@@ -85515,9 +85576,8 @@
               "text": " "
             },
             {
-              "type": "word",
-              "text": "hide",
-              "alignedLemma": "ῥινόν"
+              "type": "sep",
+              "text": "hide"
             },
             {
               "type": "sep",
@@ -85613,8 +85673,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "even"
+              "type": "word",
+              "text": "even",
+              "alignedLemma": "καί"
             },
             {
               "type": "sep",
@@ -85693,8 +85754,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "even"
+              "type": "word",
+              "text": "even",
+              "alignedLemma": "καί"
             },
             {
               "type": "sep",
@@ -85725,8 +85787,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "hide"
+              "type": "word",
+              "text": "hide",
+              "alignedLemma": "ῥινόν"
             },
             {
               "type": "sep",
@@ -87081,8 +87144,9 @@
               "text": ", "
             },
             {
-              "type": "sep",
-              "text": "have"
+              "type": "word",
+              "text": "have",
+              "alignedLemma": "ἔχω"
             },
             {
               "type": "sep",
@@ -87277,8 +87341,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "head"
+              "type": "word",
+              "text": "head",
+              "alignedLemma": "κάρα"
             },
             {
               "type": "sep",
@@ -87592,7 +87657,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -87724,7 +87789,7 @@
                 {
                   "type": "word",
                   "text": "μηδʼ",
-                  "lemma": "μηδʼ",
+                  "lemma": "μηδέ",
                   "pos": "verb"
                 },
                 {
@@ -87928,7 +87993,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -88116,7 +88181,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -88234,7 +88299,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adjective"
                 },
                 {
@@ -88296,7 +88361,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -88326,7 +88391,7 @@
                 {
                   "type": "word",
                   "text": "ἀπʼ",
-                  "lemma": "ἀπʼ",
+                  "lemma": "ἀπό",
                   "pos": "noun"
                 },
                 {
@@ -88562,7 +88627,7 @@
                 {
                   "type": "word",
                   "text": "θʼ",
-                  "lemma": "θʼ",
+                  "lemma": "τε",
                   "pos": "adverb"
                 },
                 {
@@ -88872,7 +88937,7 @@
                 {
                   "type": "word",
                   "text": "θʼ",
-                  "lemma": "θʼ",
+                  "lemma": "τε",
                   "pos": "noun"
                 },
                 {
@@ -88908,7 +88973,7 @@
                 {
                   "type": "word",
                   "text": "ἀλλʼ",
-                  "lemma": "ἀλλʼ",
+                  "lemma": "ἀλλά",
                   "pos": "verb"
                 },
                 {
@@ -89014,7 +89079,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "particle"
                 },
                 {
@@ -89398,7 +89463,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -90988,17 +91053,17 @@
               "text": " "
             },
             {
-              "type": "word",
-              "text": "heaven",
-              "alignedLemma": "οὐρανός"
+              "type": "sep",
+              "text": "heaven"
             },
             {
               "type": "sep",
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "upon"
+              "type": "word",
+              "text": "upon",
+              "alignedLemma": "ἀπό"
             },
             {
               "type": "sep",
@@ -91062,8 +91127,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "drawn"
+              "type": "word",
+              "text": "drawn",
+              "alignedLemma": "ἀρύω"
             },
             {
               "type": "sep",
@@ -91482,8 +91548,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "heaven"
+              "type": "word",
+              "text": "heaven",
+              "alignedLemma": "οὐρανός"
             },
             {
               "type": "sep",
@@ -91768,8 +91835,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "have"
+              "type": "word",
+              "text": "have",
+              "alignedLemma": "δέω"
             },
             {
               "type": "sep",
@@ -91792,8 +91860,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "usual"
+              "type": "word",
+              "text": "usual",
+              "alignedLemma": "τε"
             },
             {
               "type": "sep",
@@ -91841,8 +91910,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "have"
+              "type": "word",
+              "text": "have",
+              "alignedLemma": "ἔχω"
             },
             {
               "type": "sep",
@@ -91989,8 +92059,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "have"
+              "type": "word",
+              "text": "have",
+              "alignedLemma": "ἄν"
             },
             {
               "type": "sep",
@@ -92462,8 +92533,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "spring"
+              "type": "word",
+              "text": "spring",
+              "alignedLemma": "ἔαρ"
             },
             {
               "type": "sep",
@@ -92595,7 +92667,7 @@
                 {
                   "type": "word",
                   "text": "ἀλλʼ",
-                  "lemma": "ἀλλʼ",
+                  "lemma": "ἀλλά",
                   "pos": "verb"
                 },
                 {
@@ -92763,7 +92835,7 @@
                 {
                   "type": "word",
                   "text": "ἀλλʼ",
-                  "lemma": "ἀλλʼ",
+                  "lemma": "ἀλλά",
                   "pos": "verb"
                 },
                 {
@@ -92961,7 +93033,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adjective"
                 },
                 {
@@ -93389,7 +93461,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adjective"
                 },
                 {
@@ -93475,7 +93547,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "auxiliary"
                 },
                 {
@@ -93665,7 +93737,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "auxiliary"
                 },
                 {
@@ -94047,7 +94119,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "determiner"
                 },
                 {
@@ -94077,7 +94149,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "determiner"
                 },
                 {
@@ -94195,7 +94267,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adjective"
                 },
                 {
@@ -94225,7 +94297,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -94565,7 +94637,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -94779,7 +94851,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -94937,7 +95009,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adverb"
                 },
                 {
@@ -95029,7 +95101,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -95161,7 +95233,7 @@
                 {
                   "type": "word",
                   "text": "σʼ",
-                  "lemma": "σʼ",
+                  "lemma": "σύ",
                   "pos": "noun"
                 },
                 {
@@ -95237,7 +95309,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -95823,8 +95895,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "season"
+              "type": "word",
+              "text": "season",
+              "alignedLemma": "ὥρα"
             },
             {
               "type": "sep",
@@ -96554,8 +96627,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "season"
+              "type": "word",
+              "text": "season",
+              "alignedLemma": "ὥρα"
             },
             {
               "type": "sep",
@@ -96707,8 +96781,9 @@
               "text": ", "
             },
             {
-              "type": "sep",
-              "text": "because"
+              "type": "word",
+              "text": "because",
+              "alignedLemma": "τε"
             },
             {
               "type": "sep",
@@ -96838,8 +96913,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "time"
+              "type": "word",
+              "text": "time",
+              "alignedLemma": "τότε"
             },
             {
               "type": "sep",
@@ -98588,7 +98664,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -98680,7 +98756,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -98812,7 +98888,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -98842,7 +98918,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "determiner"
                 },
                 {
@@ -98938,7 +99014,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -99052,7 +99128,7 @@
                 {
                   "type": "word",
                   "text": "θʼ",
-                  "lemma": "θʼ",
+                  "lemma": "τε",
                   "pos": "noun"
                 },
                 {
@@ -99684,7 +99760,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -99694,7 +99770,7 @@
                 {
                   "type": "word",
                   "text": "ἐπʼ",
-                  "lemma": "ἐπʼ",
+                  "lemma": "ἐπί",
                   "pos": "numeral"
                 },
                 {
@@ -99918,7 +99994,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -100046,7 +100122,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -100112,7 +100188,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -100852,7 +100928,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -101647,8 +101723,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "year"
+              "type": "word",
+              "text": "year",
+              "alignedLemma": "πλειών"
             },
             {
               "type": "sep",
@@ -101803,16 +101880,18 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "plunge"
+              "type": "word",
+              "text": "plunge",
+              "alignedLemma": "δύω"
             },
             {
               "type": "sep",
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "into"
+              "type": "word",
+              "text": "into",
+              "alignedLemma": "δύω"
             },
             {
               "type": "sep",
@@ -101953,8 +102032,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "keep"
+              "type": "word",
+              "text": "keep",
+              "alignedLemma": "ἐρύω"
             },
             {
               "type": "sep",
@@ -102142,8 +102222,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "upon"
+              "type": "word",
+              "text": "upon",
+              "alignedLemma": "ἐπαραρίσκω"
             },
             {
               "type": "sep",
@@ -102240,8 +102321,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "keep"
+              "type": "word",
+              "text": "keep",
+              "alignedLemma": "ἔχω"
             },
             {
               "type": "sep",
@@ -102650,8 +102732,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "well"
+              "type": "word",
+              "text": "well",
+              "alignedLemma": "δέ"
             },
             {
               "type": "sep",
@@ -102777,7 +102860,7 @@
             {
               "type": "word",
               "text": "come",
-              "alignedLemma": "ἔρχομαι"
+              "alignedLemma": "εἶμι"
             },
             {
               "type": "sep",
@@ -102982,8 +103065,9 @@
               "text": ", "
             },
             {
-              "type": "sep",
-              "text": "even"
+              "type": "word",
+              "text": "even",
+              "alignedLemma": "τε"
             },
             {
               "type": "sep",
@@ -103089,8 +103173,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "because"
+              "type": "word",
+              "text": "because",
+              "alignedLemma": "τε"
             },
             {
               "type": "sep",
@@ -103410,7 +103495,7 @@
             {
               "type": "word",
               "text": "upon",
-              "alignedLemma": "ἐπαραρίσκω"
+              "alignedLemma": "ἐπί"
             },
             {
               "type": "sep",
@@ -103634,7 +103719,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -103802,7 +103887,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -103888,7 +103973,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "pronoun"
                 },
                 {
@@ -104036,7 +104121,7 @@
                 {
                   "type": "word",
                   "text": "ἐπʼ",
-                  "lemma": "ἐπʼ",
+                  "lemma": "ἐπί",
                   "pos": "numeral"
                 },
                 {
@@ -104356,7 +104441,7 @@
                 {
                   "type": "word",
                   "text": "γʼ",
-                  "lemma": "γʼ",
+                  "lemma": "γε",
                   "pos": "particle"
                 },
                 {
@@ -104632,7 +104717,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -104652,7 +104737,7 @@
                 {
                   "type": "word",
                   "text": "ἐπʼ",
-                  "lemma": "ἐπʼ",
+                  "lemma": "ἐπί",
                   "pos": "numeral"
                 },
                 {
@@ -104704,7 +104789,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adverb"
                 },
                 {
@@ -105208,7 +105293,7 @@
                 {
                   "type": "word",
                   "text": "μʼ",
-                  "lemma": "μʼ",
+                  "lemma": "ἐγώ",
                   "pos": "adverb"
                 },
                 {
@@ -105768,7 +105853,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -105788,7 +105873,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "auxiliary"
                 },
                 {
@@ -105946,7 +106031,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adverb"
                 },
                 {
@@ -106002,7 +106087,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -106427,8 +106512,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "season"
+              "type": "word",
+              "text": "season",
+              "alignedLemma": "ὥρα"
             },
             {
               "type": "sep",
@@ -106707,7 +106793,7 @@
             {
               "type": "word",
               "text": "back",
-              "alignedLemma": "πάλιν"
+              "alignedLemma": "ἀνατίθημι"
             },
             {
               "type": "sep",
@@ -106746,8 +106832,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "ever"
+              "type": "word",
+              "text": "ever",
+              "alignedLemma": "εἰ"
             },
             {
               "type": "sep",
@@ -106996,7 +107083,7 @@
             {
               "type": "word",
               "text": "have",
-              "alignedLemma": "κατάγνυμι"
+              "alignedLemma": "ἄν"
             },
             {
               "type": "sep",
@@ -107092,8 +107179,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "have"
+              "type": "word",
+              "text": "have",
+              "alignedLemma": "κατάγνυμι"
             },
             {
               "type": "sep",
@@ -107258,7 +107346,7 @@
             {
               "type": "word",
               "text": "through",
-              "alignedLemma": "ἕλκω"
+              "alignedLemma": "περάω"
             },
             {
               "type": "sep",
@@ -107519,7 +107607,7 @@
             {
               "type": "word",
               "text": "where",
-              "alignedLemma": "ὡς"
+              "alignedLemma": "καί"
             },
             {
               "type": "sep",
@@ -107852,8 +107940,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "where"
+              "type": "word",
+              "text": "where",
+              "alignedLemma": "ὡς"
             },
             {
               "type": "sep",
@@ -108579,8 +108668,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "set"
+              "type": "word",
+              "text": "set",
+              "alignedLemma": "ἔπειμι"
             },
             {
               "type": "sep",
@@ -108589,7 +108679,7 @@
             {
               "type": "word",
               "text": "upon",
-              "alignedLemma": "ἀνατίθημι"
+              "alignedLemma": "ἔπειμι"
             },
             {
               "type": "sep",
@@ -108671,7 +108761,7 @@
             {
               "type": "word",
               "text": "wish",
-              "alignedLemma": "ἐθέλω"
+              "alignedLemma": "μή"
             },
             {
               "type": "sep",
@@ -108809,8 +108899,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "time"
+              "type": "word",
+              "text": "time",
+              "alignedLemma": "τότε"
             },
             {
               "type": "sep",
@@ -109480,8 +109571,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "deep"
+              "type": "word",
+              "text": "deep",
+              "alignedLemma": "ἐπί"
             },
             {
               "type": "sep",
@@ -109518,7 +109610,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -109624,7 +109716,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adjective"
                 },
                 {
@@ -109758,7 +109850,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -109814,7 +109906,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -110176,7 +110268,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -110334,7 +110426,7 @@
                 {
                   "type": "word",
                   "text": "μηδʼ",
-                  "lemma": "μηδʼ",
+                  "lemma": "μηδέ",
                   "pos": "verb"
                 },
                 {
@@ -110572,7 +110664,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -110602,7 +110694,7 @@
                 {
                   "type": "word",
                   "text": "ἐπʼ",
-                  "lemma": "ἐπʼ",
+                  "lemma": "ἐπί",
                   "pos": "adjective"
                 },
                 {
@@ -110740,7 +110832,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -111476,7 +111568,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -112147,7 +112239,7 @@
             {
               "type": "word",
               "text": "heart",
-              "alignedLemma": "φρήν"
+              "alignedLemma": "νόος"
             },
             {
               "type": "sep",
@@ -112323,8 +112415,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "even"
+              "type": "word",
+              "text": "even",
+              "alignedLemma": "τε"
             },
             {
               "type": "sep",
@@ -112553,7 +112646,7 @@
             {
               "type": "word",
               "text": "heart",
-              "alignedLemma": "νόος"
+              "alignedLemma": "φρήν"
             },
             {
               "type": "sep",
@@ -113696,8 +113789,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "near"
+              "type": "word",
+              "text": "near",
+              "alignedLemma": "ἐπί"
             },
             {
               "type": "sep",
@@ -113730,7 +113824,7 @@
             {
               "type": "word",
               "text": "well",
-              "alignedLemma": "μέν"
+              "alignedLemma": "δέ"
             },
             {
               "type": "sep",
@@ -114205,7 +114299,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -114493,7 +114587,7 @@
                 {
                   "type": "word",
                   "text": "γʼ",
-                  "lemma": "γʼ",
+                  "lemma": "γε",
                   "pos": "adverb"
                 },
                 {
@@ -114671,7 +114765,7 @@
                 {
                   "type": "word",
                   "text": "γʼ",
-                  "lemma": "γʼ",
+                  "lemma": "γε",
                   "pos": "adverb"
                 },
                 {
@@ -114733,7 +114827,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -114947,7 +115041,7 @@
                 {
                   "type": "word",
                   "text": "μηδʼ",
-                  "lemma": "μηδʼ",
+                  "lemma": "μηδέ",
                   "pos": "verb"
                 },
                 {
@@ -115013,7 +115107,7 @@
                 {
                   "type": "word",
                   "text": "μηδʼ",
-                  "lemma": "μηδʼ",
+                  "lemma": "μηδέ",
                   "pos": "verb"
                 },
                 {
@@ -115523,7 +115617,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adjective"
                 },
                 {
@@ -115651,7 +115745,7 @@
                 {
                   "type": "word",
                   "text": "μηδʼ",
-                  "lemma": "μηδʼ",
+                  "lemma": "μηδέ",
                   "pos": "verb"
                 },
                 {
@@ -115757,7 +115851,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "determiner"
                 },
                 {
@@ -115783,7 +115877,7 @@
                 {
                   "type": "word",
                   "text": "μηδʼ",
-                  "lemma": "μηδʼ",
+                  "lemma": "μηδέ",
                   "pos": "verb"
                 },
                 {
@@ -116017,7 +116111,7 @@
                 {
                   "type": "word",
                   "text": "μηδʼ",
-                  "lemma": "μηδʼ",
+                  "lemma": "μηδέ",
                   "pos": "verb"
                 },
                 {
@@ -116093,7 +116187,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -116255,7 +116349,7 @@
                 {
                   "type": "word",
                   "text": "μηδʼ",
-                  "lemma": "μηδʼ",
+                  "lemma": "μηδέ",
                   "pos": "verb"
                 },
                 {
@@ -116347,7 +116441,7 @@
                 {
                   "type": "word",
                   "text": "ἀλλʼ",
-                  "lemma": "ἀλλʼ",
+                  "lemma": "ἀλλά",
                   "pos": "noun"
                 },
                 {
@@ -116373,7 +116467,7 @@
                 {
                   "type": "word",
                   "text": "μηδʼ",
-                  "lemma": "μηδʼ",
+                  "lemma": "μηδέ",
                   "pos": "verb"
                 },
                 {
@@ -116445,7 +116539,7 @@
                 {
                   "type": "word",
                   "text": "ἀλλʼ",
-                  "lemma": "ἀλλʼ",
+                  "lemma": "ἀλλά",
                   "pos": "noun"
                 },
                 {
@@ -117715,8 +117809,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "have"
+              "type": "word",
+              "text": "have",
+              "alignedLemma": "γε"
             },
             {
               "type": "sep",
@@ -117994,8 +118089,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "where"
+              "type": "word",
+              "text": "where",
+              "alignedLemma": "καί"
             },
             {
               "type": "sep",
@@ -119120,8 +119216,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "come"
+              "type": "word",
+              "text": "come",
+              "alignedLemma": "εἶμι"
             },
             {
               "type": "sep",
@@ -119329,7 +119426,7 @@
                 {
                   "type": "word",
                   "text": "γʼ",
-                  "lemma": "γʼ",
+                  "lemma": "γε",
                   "pos": "particle"
                 },
                 {
@@ -119613,7 +119710,7 @@
                 {
                   "type": "word",
                   "text": "μηδʼ",
-                  "lemma": "μηδʼ",
+                  "lemma": "μηδέ",
                   "pos": "verb"
                 },
                 {
@@ -119843,7 +119940,7 @@
                 {
                   "type": "word",
                   "text": "ἐπʼ",
-                  "lemma": "ἐπʼ",
+                  "lemma": "ἐπί",
                   "pos": "noun"
                 },
                 {
@@ -120011,7 +120108,7 @@
                 {
                   "type": "word",
                   "text": "μηδʼ",
-                  "lemma": "μηδʼ",
+                  "lemma": "μηδέ",
                   "pos": "verb"
                 },
                 {
@@ -120149,7 +120246,7 @@
                 {
                   "type": "word",
                   "text": "μηδʼ",
-                  "lemma": "μηδʼ",
+                  "lemma": "μηδέ",
                   "pos": "verb"
                 },
                 {
@@ -120159,7 +120256,7 @@
                 {
                   "type": "word",
                   "text": "ἐπʼ",
-                  "lemma": "ἐπʼ",
+                  "lemma": "ἐπί",
                   "pos": "adjective"
                 },
                 {
@@ -120511,7 +120608,7 @@
                 {
                   "type": "word",
                   "text": "μηδʼ",
-                  "lemma": "μηδʼ",
+                  "lemma": "μηδέ",
                   "pos": "verb"
                 },
                 {
@@ -120531,7 +120628,7 @@
                 {
                   "type": "word",
                   "text": "ἐπʼ",
-                  "lemma": "ἐπʼ",
+                  "lemma": "ἐπί",
                   "pos": "numeral"
                 },
                 {
@@ -120721,7 +120818,7 @@
                 {
                   "type": "word",
                   "text": "μηδʼ",
-                  "lemma": "μηδʼ",
+                  "lemma": "μηδέ",
                   "pos": "verb"
                 },
                 {
@@ -120771,7 +120868,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -120797,7 +120894,7 @@
                 {
                   "type": "word",
                   "text": "μηδʼ",
-                  "lemma": "μηδʼ",
+                  "lemma": "μηδέ",
                   "pos": "verb"
                 },
                 {
@@ -121101,7 +121198,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -121137,7 +121234,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -121449,8 +121546,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "flood"
+              "type": "word",
+              "text": "flood",
+              "alignedLemma": "προχοή"
             },
             {
               "type": "sep",
@@ -121530,8 +121628,9 @@
               "text": ". "
             },
             {
-              "type": "sep",
-              "text": "Whoever"
+              "type": "word",
+              "text": "Whoever",
+              "alignedLemma": "μή"
             },
             {
               "type": "sep",
@@ -121677,8 +121776,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "upon"
+              "type": "word",
+              "text": "upon",
+              "alignedLemma": "ἐπί"
             },
             {
               "type": "sep",
@@ -121822,8 +121922,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "upon"
+              "type": "word",
+              "text": "upon",
+              "alignedLemma": "ἐπί"
             },
             {
               "type": "sep",
@@ -122921,8 +123022,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "upon"
+              "type": "word",
+              "text": "upon",
+              "alignedLemma": "ἐπί"
             },
             {
               "type": "sep",
@@ -122946,8 +123048,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "sacrifice"
+              "type": "word",
+              "text": "sacrifice",
+              "alignedLemma": "τέμνω"
             },
             {
               "type": "sep",
@@ -123668,7 +123771,7 @@
             {
               "type": "word",
               "text": "even",
-              "alignedLemma": "αὐτός"
+              "alignedLemma": "καί"
             },
             {
               "type": "sep",
@@ -123746,7 +123849,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -123880,7 +123983,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adjective"
                 },
                 {
@@ -124240,7 +124343,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -124408,7 +124511,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adjective"
                 },
                 {
@@ -124774,7 +124877,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -124860,7 +124963,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -124932,7 +125035,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -124978,7 +125081,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -125064,7 +125167,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -125094,7 +125197,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -125308,7 +125411,7 @@
                 {
                   "type": "word",
                   "text": "ἀλλʼ",
-                  "lemma": "ἀλλʼ",
+                  "lemma": "ἀλλά",
                   "pos": "noun"
                 },
                 {
@@ -125380,7 +125483,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "pronoun"
                 },
                 {
@@ -125446,7 +125549,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -125476,7 +125579,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -125538,7 +125641,7 @@
                 {
                   "type": "word",
                   "text": "θʼ",
-                  "lemma": "θʼ",
+                  "lemma": "τε",
                   "pos": "noun"
                 },
                 {
@@ -125588,7 +125691,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "pronoun"
                 },
                 {
@@ -125624,7 +125727,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -125752,7 +125855,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -125910,7 +126013,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -126238,7 +126341,7 @@
                 {
                   "type": "word",
                   "text": "θʼ",
-                  "lemma": "θʼ",
+                  "lemma": "τε",
                   "pos": "noun"
                 },
                 {
@@ -127506,8 +127609,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "pile"
+              "type": "word",
+              "text": "pile",
+              "alignedLemma": "νέω"
             },
             {
               "type": "sep",
@@ -129548,7 +129652,7 @@
                 {
                   "type": "word",
                   "text": "ἐπʼ",
-                  "lemma": "ἐπʼ",
+                  "lemma": "ἐπί",
                   "pos": "adjective"
                 },
                 {
@@ -129604,7 +129708,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -129828,7 +129932,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -130054,7 +130158,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "pronoun"
                 },
                 {
@@ -130110,7 +130214,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -130176,7 +130280,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adverb"
                 },
                 {
@@ -130262,7 +130366,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -130338,7 +130442,7 @@
                 {
                   "type": "word",
                   "text": "θʼ",
-                  "lemma": "θʼ",
+                  "lemma": "τε",
                   "pos": "adverb"
                 },
                 {
@@ -130410,7 +130514,7 @@
                 {
                   "type": "word",
                   "text": "τʼ",
-                  "lemma": "τʼ",
+                  "lemma": "τε",
                   "pos": "adjective"
                 },
                 {
@@ -130496,7 +130600,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -130844,7 +130948,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -130936,7 +131040,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -130956,7 +131060,7 @@
                 {
                   "type": "word",
                   "text": "μετʼ",
-                  "lemma": "μετʼ",
+                  "lemma": "μετά",
                   "pos": "noun"
                 },
                 {
@@ -131038,7 +131142,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -131160,7 +131264,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -131246,7 +131350,7 @@
                 {
                   "type": "word",
                   "text": "δʼ",
-                  "lemma": "δʼ",
+                  "lemma": "δέ",
                   "pos": "adjective"
                 },
                 {
@@ -131575,9 +131679,8 @@
               "text": " "
             },
             {
-              "type": "word",
-              "text": "fourth",
-              "alignedLemma": "τέταρτος"
+              "type": "sep",
+              "text": "fourth"
             },
             {
               "type": "sep",
@@ -131609,9 +131712,8 @@
               "text": " "
             },
             {
-              "type": "word",
-              "text": "bring",
-              "alignedLemma": "ἄγω"
+              "type": "sep",
+              "text": "bring"
             },
             {
               "type": "sep",
@@ -132061,8 +132163,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "upon"
+              "type": "word",
+              "text": "upon",
+              "alignedLemma": "ἐπί"
             },
             {
               "type": "sep",
@@ -132079,7 +132182,7 @@
             {
               "type": "word",
               "text": "well",
-              "alignedLemma": "εὖ"
+              "alignedLemma": "δέ"
             },
             {
               "type": "sep",
@@ -132159,9 +132262,8 @@
               "text": "-"
             },
             {
-              "type": "word",
-              "text": "month",
-              "alignedLemma": "μείς"
+              "type": "sep",
+              "text": "month"
             },
             {
               "type": "sep",
@@ -132339,8 +132441,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "fourth"
+              "type": "word",
+              "text": "fourth",
+              "alignedLemma": "τέταρτος"
             },
             {
               "type": "sep",
@@ -132439,8 +132542,9 @@
               "text": "-"
             },
             {
-              "type": "sep",
-              "text": "month"
+              "type": "word",
+              "text": "month",
+              "alignedLemma": "μείς"
             },
             {
               "type": "sep",
@@ -133188,8 +133292,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "right"
+              "type": "word",
+              "text": "right",
+              "alignedLemma": "εὖ"
             },
             {
               "type": "sep",
@@ -133691,8 +133796,9 @@
               "text": " "
             },
             {
-              "type": "sep",
-              "text": "bring"
+              "type": "word",
+              "text": "bring",
+              "alignedLemma": "ἄγω"
             },
             {
               "type": "sep",

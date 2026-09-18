@@ -40,12 +40,24 @@ export default function WordSpan({
   currentLine: string;
   wordId: string;
 }) {
-  const { activeWordId, openWord, hovered, setHovered } = useReader();
+  const { activeWordId, openWord } = useReader();
   const [data, setData] = useState<LemmaData | null>(cache.get(lemma) ?? null);
   const [loading, setLoading] = useState(false);
 
   const isOpen = activeWordId === wordId;
-  const isMatched = !isOpen && hovered?.card === card && hovered?.lemma === lemma;
+  const hlKey = `${card}:${lemma}`;
+
+  function handleEnter() {
+    document
+      .querySelectorAll(`[data-hl-key="${CSS.escape(hlKey)}"]`)
+      .forEach((el) => el.classList.add("word-highlight"));
+  }
+
+  function handleLeave() {
+    document
+      .querySelectorAll(`[data-hl-key="${CSS.escape(hlKey)}"]`)
+      .forEach((el) => el.classList.remove("word-highlight"));
+  }
 
   async function handleClick() {
     openWord(wordId);
@@ -73,15 +85,12 @@ export default function WordSpan({
       data-word-popup
       data-lemma={lemma}
       data-line={`${currentWork}:${currentLine}`}
+      data-hl-key={hlKey}
       className={`relative cursor-pointer scroll-mt-32 rounded transition-colors ${
-        isOpen
-          ? "bg-amber-200 dark:bg-amber-900"
-          : isMatched
-            ? "bg-amber-100 dark:bg-amber-950"
-            : "hover:bg-neutral-100 dark:hover:bg-neutral-800"
+        isOpen ? "bg-amber-200 dark:bg-amber-900" : "hover:bg-neutral-100 dark:hover:bg-neutral-800"
       }`}
-      onMouseEnter={() => setHovered({ card, lemma })}
-      onMouseLeave={() => setHovered(null)}
+      onMouseEnter={handleEnter}
+      onMouseLeave={handleLeave}
       onClick={handleClick}
     >
       {text}
@@ -113,7 +122,7 @@ export default function WordSpan({
                       <Link
                         href={`/read/${slugify(o.work)}/${o.book}?flashLemma=${encodeURIComponent(
                           lemma
-                        )}&flashLine=${encodeURIComponent(`${o.work}:${o.line}`)}#card-${o.card}`}
+                        )}&flashLine=${encodeURIComponent(`${o.work}:${o.line}`)}`}
                         className="text-xs text-blue-600 hover:underline dark:text-blue-400"
                       >
                         {o.work} {o.work === "Iliad" || o.work === "Odyssey" ? `${o.book}.` : ""}

@@ -1,43 +1,56 @@
 "use client";
 
 import { useEffect } from "react";
+import { useSearchParams, usePathname, useRouter } from "next/navigation";
 
 /**
- * On mount, checks the URL for ?flashLemma=...&flashLine=WORK:LINE (set by
- * occurrence links in the LSJ popup). If present, scrolls that specific word
- * instance to the center of the viewport and briefly flashes it, then cleans
- * the query string so a refresh doesn't re-trigger it.
+ * Checks the URL for ?flashLemma=...&flashLine=WORK:LINE (set by occurrence
+ * links in the LSJ popup). When present, scrolls that specific word instance
+ * to the center of the viewport and briefly flashes it, then cleans the
+ * query string.
+ *
+ * Occurrence links carry no #card-N hash fragment -- an earlier version did,
+ * and the browser's/Next's own native hash-scroll (jumps to the top of the
+ * card, not the specific word) fired after this effect and silently
+ * overrode it.
+ *
+ * Uses useSearchParams()/usePathname() (not a one-time window.location.search
+ * read) specifically because /read/[work]/[book] is the *same* page
+ * component across navigations between books -- React reconciles it as an
+ * update rather than a remount, so a plain useState lazy initializer or a
+ * ref-based "have I run yet" guard would only ever fire once for the
+ * component's whole lifetime and silently do nothing on every subsequent
+ * occurrence-link click. These hooks are the part of that same persistent
+ * component instance that Next actually updates on navigation, so an effect
+ * keyed on them re-fires correctly every time.
  */
 export default function FlashHandler() {
+  const searchParams = useSearchParams();
+  const pathname = usePathname();
+  const router = useRouter();
+
+  const lemma = searchParams.get("flashLemma");
+  const line = searchParams.get("flashLine");
+
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const lemma = params.get("flashLemma");
-    const line = params.get("flashLine");
     if (!lemma || !line) return;
 
-    const el = document.querySelector<HTMLElement>(
-      `[data-lemma="${CSS.escape(lemma)}"][data-line="${CSS.escape(line)}"]`
-    );
-    if (!el) return;
+    router.replace(pathname, { scroll: false });
 
-    // Runs after a short delay so it overrides the browser's own native
-    // scroll to the #card-N hash fragment (which otherwise wins if it
-    // fires after this effect and lands on the top of a multi-line card
-    // rather than the specific word).
     const timer = setTimeout(() => {
+      const el = document.querySelector<HTMLElement>(
+        `[data-lemma="${CSS.escape(lemma)}"][data-line="${CSS.escape(line)}"]`
+      );
+      if (!el) return;
       el.scrollIntoView({ behavior: "smooth", block: "center" });
       el.classList.add("flash-word");
       const cleanup = () => el.classList.remove("flash-word");
       el.addEventListener("animationend", cleanup, { once: true });
-    }, 400);
-
-    const url = new URL(window.location.href);
-    url.searchParams.delete("flashLemma");
-    url.searchParams.delete("flashLine");
-    window.history.replaceState({}, "", url);
+    }, 80);
 
     return () => clearTimeout(timer);
-  }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [lemma, line, pathname]);
 
   return null;
 }

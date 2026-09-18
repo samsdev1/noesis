@@ -1,50 +1,76 @@
 @import "tailwindcss";
 
-/* Dracula palette, forced regardless of system light/dark preference --
-   we override Tailwind's neutral (grayscale) and amber (used here as the
-   "highlight" accent) scales directly, so every existing bg-neutral-*,
-   text-neutral-*, and bg-amber-* class across the app picks this up
-   automatically without touching component files. */
+/* Gruvbox "hard dark" (OLED-friendly true-black-leaning) palette, the
+   site's only theme. Tailwind's neutral/amber scales below are wired to
+   these tokens, so every existing bg-neutral-*, text-neutral-*, bg-amber-*
+   class across the app picks it up without per-component changes. */
+:root {
+  --theme-bg: #1d2021;
+  --theme-bg-alt: #282828;
+  --theme-bg-alt2: #32302f;
+  --theme-border: #504945;
+  --theme-border-soft: #3c3836;
+  --theme-fg: #ebdbb2;
+  --theme-fg-soft: #d5c4a1;
+  --theme-fg-muted: #928374;
+  --theme-fg-muted2: #a89984;
+  --theme-highlight: #fabd2f;
+  --theme-highlight-soft: #d79921;
+  --theme-highlight-dark: #4d3800;
+  --theme-highlight-dark-soft: #6b4f00;
+  --theme-accent: #83a598;
+}
+
 @theme {
-  --color-neutral-50: #f8f8f2;
-  --color-neutral-100: #e6e6f0;
-  --color-neutral-200: #cfd1e0;
-  --color-neutral-300: #b0b3cc;
-  --color-neutral-400: #8890b5;
-  --color-neutral-500: #6272a4;
-  --color-neutral-600: #515873;
-  --color-neutral-700: #44475a;
-  --color-neutral-800: #383a4a;
-  --color-neutral-900: #282a36;
-  --color-neutral-950: #1e1f29;
+  --color-neutral-50: var(--theme-fg);
+  --color-neutral-100: var(--theme-fg-soft);
+  --color-neutral-200: var(--theme-fg-soft);
+  --color-neutral-300: var(--theme-fg-muted2);
+  --color-neutral-400: var(--theme-fg-muted2);
+  --color-neutral-500: var(--theme-fg-muted);
+  --color-neutral-600: var(--theme-fg-muted);
+  --color-neutral-700: var(--theme-border);
+  --color-neutral-800: var(--theme-bg-alt2);
+  --color-neutral-900: var(--theme-bg);
+  --color-neutral-950: var(--theme-bg);
 
-  --color-amber-50: #ffe0f0;
-  --color-amber-100: #ffd0ea;
-  --color-amber-200: #ffb3e0;
-  --color-amber-400: #ff79c6;
-  --color-amber-500: #ff5fb9;
-  --color-amber-800: #7a2a55;
-  --color-amber-900: #5c1f40;
-  --color-amber-950: #3d1530;
+  --color-amber-50: var(--theme-highlight-soft);
+  --color-amber-100: var(--theme-highlight-soft);
+  --color-amber-200: var(--theme-highlight);
+  --color-amber-400: var(--theme-highlight);
+  --color-amber-500: var(--theme-highlight);
+  --color-amber-800: var(--theme-highlight-dark-soft);
+  --color-amber-900: var(--theme-highlight-dark);
+  --color-amber-950: var(--theme-highlight-dark);
 
-  --color-blue-400: #8be9fd;
-  --color-blue-600: #6fc9dd;
+  --color-blue-400: var(--theme-accent);
+  --color-blue-600: var(--theme-accent);
 
-  --color-background: #282a36;
-  --color-foreground: #f8f8f2;
+  --color-background: var(--theme-bg);
+  --color-foreground: var(--theme-fg);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 body {
-  background: var(--color-background);
-  color: var(--color-foreground);
+  background: var(--theme-bg);
+  color: var(--theme-fg);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Word hover-correspondence highlight, applied via direct DOM classList
+   toggling (see WordSpan/CardRow) rather than React state, so hovering
+   across many words doesn't trigger a re-render of every word on the
+   page -- this is what was causing the laggy highlighting. */
+.word-highlight {
+  background-color: var(--theme-highlight-soft);
+  color: var(--theme-bg);
+  border-radius: 0.2em;
 }
 
 @keyframes flash-word {
   0%, 100% { background-color: transparent; }
-  25%, 75% { background-color: rgba(255, 121, 198, 0.55); }
+  25%, 75% { background-color: var(--theme-highlight); }
 }
 
 .flash-word {

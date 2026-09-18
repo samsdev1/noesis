@@ -1,23 +1,17 @@
 "use client";
 
-import { createContext, useContext, useEffect, useRef, useState } from "react";
-
-type Hovered = { card: string; lemma: string } | null;
+import { createContext, useContext, useEffect, useState } from "react";
 
 type ReaderContextValue = {
   activeWordId: string | null;
   openWord: (id: string) => void;
   closeWord: () => void;
-  hovered: Hovered;
-  setHovered: (hovered: Hovered) => void;
 };
 
 const ReaderContext = createContext<ReaderContextValue | null>(null);
 
 export function ReaderProvider({ children }: { children: React.ReactNode }) {
   const [activeWordId, setActiveWordId] = useState<string | null>(null);
-  const [hovered, setHovered] = useState<Hovered>(null);
-  const rootRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     function handleDocClick(e: MouseEvent) {
@@ -36,11 +30,9 @@ export function ReaderProvider({ children }: { children: React.ReactNode }) {
         activeWordId,
         openWord: (id) => setActiveWordId((cur) => (cur === id ? null : id)),
         closeWord: () => setActiveWordId(null),
-        hovered,
-        setHovered,
       }}
     >
-      <div ref={rootRef}>{children}</div>
+      {children}
     </ReaderContext.Provider>
   );
 }

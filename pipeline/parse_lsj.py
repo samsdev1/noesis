@@ -49,6 +49,12 @@ def extract_gloss(entry_elem):
 
 def to_unicode(beta):
     beta = beta.strip()
+    # LSJ disambiguates homonyms with a trailing digit on the key, e.g.
+    # "e)/xw1" / "e)/xw2" for the two unrelated verbs both spelled ἔχω.
+    # Left in place, the digit corrupts the Beta Code conversion and the
+    # resulting key never matches the real lemma. Strip it before
+    # converting; homonym glosses are merged by the caller regardless.
+    beta = re.sub(r"\d+$", "", beta)
     # strip trailing punctuation/annotation noise sometimes present in `key`
     beta = re.sub(r"[.,;]+$", "", beta)
     try:
