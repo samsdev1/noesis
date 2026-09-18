@@ -56,7 +56,11 @@ export default function CardRow({ card, workTitle }: { card: Card; workTitle: st
               <span
                 key={i}
                 data-hl-key={alignable ? hlKey : undefined}
-                className={`rounded transition-colors ${alignable ? "cursor-pointer hover:bg-neutral-800" : ""}`}
+                className={`rounded transition-colors ${
+                  alignable
+                    ? "cursor-pointer border-b border-dotted border-neutral-600 hover:bg-neutral-800"
+                    : ""
+                }`}
                 onMouseEnter={alignable ? () => highlight(hlKey, true) : undefined}
                 onMouseLeave={alignable ? () => highlight(hlKey, false) : undefined}
               >
