@@ -21,14 +21,25 @@ export default async function WorkPage({ params }: { params: Promise<{ work: str
       </h1>
       <p className="text-neutral-600 dark:text-neutral-400">{work.author}</p>
 
-      <ul className="mt-8 grid grid-cols-3 gap-4 sm:grid-cols-4 md:grid-cols-6">
+      <ul className="mt-8 grid grid-cols-4 gap-3 sm:grid-cols-6 md:grid-cols-8">
         {work.books.map((b) => (
-          <li key={b.book}>
+          <li key={b.book} className="aspect-square">
             <Link
               href={`/read/${workParam}/${b.book}`}
-              className="flex h-24 items-center justify-center rounded-xl border border-neutral-700 bg-neutral-800/40 text-lg font-medium text-neutral-100 transition-colors hover:border-amber-400 hover:bg-neutral-800 hover:text-amber-200"
+              className="group flex h-full flex-col items-center justify-center gap-0.5 rounded-lg border border-neutral-700 bg-neutral-800/30 transition-colors hover:border-amber-400 hover:bg-neutral-800"
             >
-              {work.books.length > 1 ? `Bk ${b.book}` : "Read"}
+              {work.books.length > 1 ? (
+                <>
+                  <span className="text-[0.65rem] uppercase tracking-wide text-neutral-500 group-hover:text-amber-300/70">
+                    Book
+                  </span>
+                  <span className="text-2xl font-semibold text-neutral-100 group-hover:text-amber-200">
+                    {b.book}
+                  </span>
+                </>
+              ) : (
+                <span className="text-lg font-medium text-neutral-100 group-hover:text-amber-200">Read</span>
+              )}
             </Link>
           </li>
         ))}
