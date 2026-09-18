@@ -40,11 +40,12 @@ export default function WordSpan({
   currentLine: string;
   wordId: string;
 }) {
-  const { activeWordId, openWord, setHovered } = useReader();
+  const { activeWordId, openWord, hovered, setHovered } = useReader();
   const [data, setData] = useState<LemmaData | null>(cache.get(lemma) ?? null);
   const [loading, setLoading] = useState(false);
 
   const isOpen = activeWordId === wordId;
+  const isMatched = !isOpen && hovered?.card === card && hovered?.lemma === lemma;
 
   async function handleClick() {
     openWord(wordId);
@@ -72,8 +73,12 @@ export default function WordSpan({
       data-word-popup
       data-lemma={lemma}
       data-line={`${currentWork}:${currentLine}`}
-      className={`relative cursor-pointer scroll-mt-32 transition-colors ${
-        isOpen ? "bg-amber-200 dark:bg-amber-900" : "hover:bg-neutral-100 dark:hover:bg-neutral-800"
+      className={`relative cursor-pointer scroll-mt-32 rounded transition-colors ${
+        isOpen
+          ? "bg-amber-200 dark:bg-amber-900"
+          : isMatched
+            ? "bg-amber-100 dark:bg-amber-950"
+            : "hover:bg-neutral-100 dark:hover:bg-neutral-800"
       }`}
       onMouseEnter={() => setHovered({ card, lemma })}
       onMouseLeave={() => setHovered(null)}

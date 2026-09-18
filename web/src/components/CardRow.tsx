@@ -5,7 +5,7 @@ import { useReader } from "./ReaderContext";
 import type { Card } from "@/lib/texts";
 
 export default function CardRow({ card, workTitle }: { card: Card; workTitle: string }) {
-  const { hovered } = useReader();
+  const { hovered, setHovered } = useReader();
 
   return (
     <div
@@ -47,19 +47,17 @@ export default function CardRow({ card, workTitle }: { card: Card; workTitle: st
       <div className="text-[1.05rem] leading-8 text-neutral-700 dark:text-neutral-300">
         {card.english_segments ? (
           card.english_segments.map((seg, i) => {
+            const alignable = seg.type === "word" && !!seg.alignedLemma;
             const isMatch =
-              seg.type === "word" &&
-              seg.alignedLemma &&
-              hovered?.card === card.card &&
-              hovered?.lemma === seg.alignedLemma;
+              alignable && hovered?.card === card.card && hovered?.lemma === seg.alignedLemma;
             return (
               <span
                 key={i}
-                className={
-                  isMatch
-                    ? "rounded bg-amber-200 text-neutral-900 transition-colors dark:bg-amber-800 dark:text-neutral-100"
-                    : ""
-                }
+                className={`rounded transition-colors ${
+                  alignable ? "cursor-pointer hover:bg-neutral-800" : ""
+                } ${isMatch ? "bg-amber-200 text-neutral-900 dark:bg-amber-800 dark:text-neutral-100" : ""}`}
+                onMouseEnter={alignable ? () => setHovered({ card: card.card, lemma: seg.alignedLemma! }) : undefined}
+                onMouseLeave={alignable ? () => setHovered(null) : undefined}
               >
                 {seg.text}
               </span>

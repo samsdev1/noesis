@@ -1,33 +1,50 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* Dracula palette, forced regardless of system light/dark preference --
+   we override Tailwind's neutral (grayscale) and amber (used here as the
+   "highlight" accent) scales directly, so every existing bg-neutral-*,
+   text-neutral-*, and bg-amber-* class across the app picks this up
+   automatically without touching component files. */
+@theme {
+  --color-neutral-50: #f8f8f2;
+  --color-neutral-100: #e6e6f0;
+  --color-neutral-200: #cfd1e0;
+  --color-neutral-300: #b0b3cc;
+  --color-neutral-400: #8890b5;
+  --color-neutral-500: #6272a4;
+  --color-neutral-600: #515873;
+  --color-neutral-700: #44475a;
+  --color-neutral-800: #383a4a;
+  --color-neutral-900: #282a36;
+  --color-neutral-950: #1e1f29;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-amber-50: #ffe0f0;
+  --color-amber-100: #ffd0ea;
+  --color-amber-200: #ffb3e0;
+  --color-amber-400: #ff79c6;
+  --color-amber-500: #ff5fb9;
+  --color-amber-800: #7a2a55;
+  --color-amber-900: #5c1f40;
+  --color-amber-950: #3d1530;
+
+  --color-blue-400: #8be9fd;
+  --color-blue-600: #6fc9dd;
+
+  --color-background: #282a36;
+  --color-foreground: #f8f8f2;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--color-background);
+  color: var(--color-foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 @keyframes flash-word {
   0%, 100% { background-color: transparent; }
-  25%, 75% { background-color: rgba(245, 158, 11, 0.65); }
+  25%, 75% { background-color: rgba(255, 121, 198, 0.55); }
 }
 
 .flash-word {
