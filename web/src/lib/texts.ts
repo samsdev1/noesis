@@ -4,8 +4,16 @@ import path from "path";
 export type Segment =
   | { type: "word"; text: string; lemma: string; pos: string }
   | { type: "sep"; text: string };
+export type EnglishSegment =
+  | { type: "word"; text: string; alignedLemma?: string }
+  | { type: "sep"; text: string };
 export type Line = { n: string; text: string; segments?: Segment[] };
-export type Card = { card: string; greek_lines: Line[]; english: string };
+export type Card = {
+  card: string;
+  greek_lines: Line[];
+  english: string;
+  english_segments?: EnglishSegment[];
+};
 export type Book = { book: string; cards: Card[] };
 export type Work = { title: string; author: string; urn: string; books: Book[] };
 

@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { loadWork, WORK_SLUGS, WorkSlug } from "@/lib/texts";
-import WordSpan from "@/components/WordSpan";
+import { ReaderProvider } from "@/components/ReaderContext";
+import CardRow from "@/components/CardRow";
+import FlashHandler from "@/components/FlashHandler";
 
 export function generateStaticParams() {
   return WORK_SLUGS.flatMap((work) => {
@@ -50,51 +52,14 @@ export default async function ReaderPage({
         {work.books.length > 1 && <span className="text-neutral-500"> &middot; Book {book.book}</span>}
       </h1>
 
-      <div className="mt-8 space-y-10">
-        {book.cards.map((card) => (
-          <div
-            key={card.card}
-            id={`card-${card.card}`}
-            className="grid grid-cols-1 gap-4 border-b border-neutral-100 pb-8 last:border-0 md:grid-cols-2 md:gap-8 dark:border-neutral-900"
-          >
-            <div
-              className="text-[1.15rem] leading-8 text-neutral-900 dark:text-neutral-100"
-              style={{ fontFamily: "var(--font-noto-serif)" }}
-            >
-              {card.greek_lines.map((line) => (
-                <div key={line.n} className="flex gap-3">
-                  <span className="w-8 shrink-0 select-none text-right text-xs text-neutral-400 pt-1.5">
-                    {line.n}
-                  </span>
-                  <span>
-                    {line.segments
-                      ? line.segments.map((seg, i) =>
-                          seg.type === "word" ? (
-                            <WordSpan
-                              key={i}
-                              text={seg.text}
-                              lemma={seg.lemma}
-                              pos={seg.pos}
-                              currentWork={work.title}
-                              currentLine={line.n}
-                            />
-                          ) : (
-                            <span key={i}>{seg.text}</span>
-                          )
-                        )
-                      : line.text}
-                  </span>
-                </div>
-              ))}
-            </div>
-            <div className="text-[1.05rem] leading-8 text-neutral-700 dark:text-neutral-300">
-              {card.english || (
-                <span className="italic text-neutral-400">[translation gap]</span>
-              )}
-            </div>
-          </div>
-        ))}
-      </div>
+      <ReaderProvider>
+        <FlashHandler />
+        <div className="mt-8 space-y-10">
+          {book.cards.map((card) => (
+            <CardRow key={card.card} card={card} workTitle={work.title} />
+          ))}
+        </div>
+      </ReaderProvider>
     </main>
   );
 }

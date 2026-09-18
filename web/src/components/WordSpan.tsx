@@ -1,7 +1,8 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
+import { useReader } from "./ReaderContext";
 
 type LemmaData = {
   lemma: string;
@@ -26,22 +27,27 @@ export default function WordSpan({
   text,
   lemma,
   pos,
+  card,
   currentWork,
   currentLine,
+  wordId,
 }: {
   text: string;
   lemma: string;
   pos: string;
+  card: string;
   currentWork: string;
   currentLine: string;
+  wordId: string;
 }) {
+  const { activeWordId, openWord, setHovered } = useReader();
   const [data, setData] = useState<LemmaData | null>(cache.get(lemma) ?? null);
-  const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
-  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  async function handleEnter() {
-    setOpen(true);
+  const isOpen = activeWordId === wordId;
+
+  async function handleClick() {
+    openWord(wordId);
     if (cache.has(lemma)) {
       setData(cache.get(lemma)!);
       return;
@@ -57,31 +63,25 @@ export default function WordSpan({
     }
   }
 
-  function handleLeave() {
-    timeoutRef.current = setTimeout(() => setOpen(false), 120);
-  }
-
-  function cancelClose() {
-    if (timeoutRef.current) clearTimeout(timeoutRef.current);
-  }
-
   const otherOccurrences = (data?.occurrences ?? []).filter(
     (o) => !(o.work === currentWork && o.line === currentLine)
   );
 
   return (
     <span
-      className="relative cursor-help border-b border-dotted border-neutral-300 hover:bg-amber-100 hover:border-amber-400 dark:border-neutral-700 dark:hover:bg-amber-950/40"
-      onMouseEnter={handleEnter}
-      onMouseLeave={handleLeave}
+      data-word-popup
+      data-lemma={lemma}
+      data-line={`${currentWork}:${currentLine}`}
+      className={`relative cursor-pointer scroll-mt-32 transition-colors ${
+        isOpen ? "bg-amber-200 dark:bg-amber-900" : "hover:bg-neutral-100 dark:hover:bg-neutral-800"
+      }`}
+      onMouseEnter={() => setHovered({ card, lemma })}
+      onMouseLeave={() => setHovered(null)}
+      onClick={handleClick}
     >
       {text}
-      {open && (
-        <span
-          onMouseEnter={cancelClose}
-          onMouseLeave={handleLeave}
-          className="absolute left-1/2 top-full z-50 mt-2 w-72 -translate-x-1/2 rounded-lg border border-neutral-200 bg-white p-3 text-left text-sm font-sans normal-case leading-normal text-neutral-800 shadow-lg dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200"
-        >
+      {isOpen && (
+        <span className="absolute left-1/2 top-full z-50 mt-2 w-72 -translate-x-1/2 rounded-lg border border-neutral-200 bg-white p-3 text-left text-sm font-sans normal-case leading-normal text-neutral-800 shadow-lg dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-200">
           <div className="flex items-baseline justify-between gap-2">
             <span className="font-serif text-base font-semibold">{lemma}</span>
             {pos && <span className="text-xs uppercase text-neutral-400">{pos}</span>}
@@ -106,7 +106,9 @@ export default function WordSpan({
                   {otherOccurrences.slice(0, 6).map((o, i) => (
                     <li key={i}>
                       <Link
-                        href={`/read/${slugify(o.work)}/${o.book}#card-${o.card}`}
+                        href={`/read/${slugify(o.work)}/${o.book}?flashLemma=${encodeURIComponent(
+                          lemma
+                        )}&flashLine=${encodeURIComponent(`${o.work}:${o.line}`)}#card-${o.card}`}
                         className="text-xs text-blue-600 hover:underline dark:text-blue-400"
                       >
                         {o.work} {o.work === "Iliad" || o.work === "Odyssey" ? `${o.book}.` : ""}

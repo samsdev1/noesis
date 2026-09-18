@@ -24,3 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes flash-word {
+  0%, 100% { background-color: transparent; }
+  25%, 75% { background-color: rgba(245, 158, 11, 0.65); }
+}
+
+.flash-word {
+  animation: flash-word 1s ease-in-out 2;
+  border-radius: 0.2em;
+}
